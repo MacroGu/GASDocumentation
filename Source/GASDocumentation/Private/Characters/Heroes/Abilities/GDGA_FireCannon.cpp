@@ -13,9 +13,9 @@ UGDGA_FireCannon::UGDGA_FireCannon()
 {
 	InstancingPolicy = EGameplayAbilityInstancingPolicy::InstancedPerActor;
 
-	FGameplayTag Ability1Tag = FGameplayTag::RequestGameplayTag(FName("Ability.Skill.Ability1"));
-	AbilityTags.AddTag(Ability1Tag);
-	ActivationOwnedTags.AddTag(Ability1Tag);
+	FGameplayTag Ability6Tag = FGameplayTag::RequestGameplayTag(FName("Ability.Skill.Ability6"));
+	AbilityTags.AddTag(Ability6Tag);
+	ActivationOwnedTags.AddTag(Ability6Tag);
 
 	ActivationBlockedTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Ability.Skill")));
 
